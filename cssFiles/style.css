@@ -10,3 +10,97 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+.navBar {
+    background-color: #4c4b16;
+    position: relative;
+
+}
+
+.logoText {
+    font-size: 1.5rem;
+    color: #f7dca5;
+    font-family: "Kalam", cursive;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 0.8;
+}
+
+.logo-container a {
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0px;
+    margin: 0.4rem 0;
+
+}
+
+.logo-container img {
+    width: 5.5rem;
+}
+
+.navItem {
+    margin-top: 1rem;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navItem ul {
+    font-size: xx-large;
+    list-style: none;
+    display: flex;
+    gap: 5.5rem;
+}
+
+.navItem a {
+    padding: 1.9rem 0;
+
+    font-weight: 200;
+
+}
+
+.subNavList li,
+.navItem li {
+    border-bottom: 5px solid transparent;
+}
+
+
+.navItem li:hover {
+    border-bottom: 5px solid #f7dca5;
+}
+
+.subNavList li:hover {
+    border-bottom: 5px solid #4c4b16;
+}
+
+.navBar a {
+    font-size: 2rem;
+    color: #f7dca5;
+    text-decoration: none;
+
+    display: inline-flex;
+    justify-content: center;
+    gap: 0.2rem;
+    align-items: center;
+}
+
+.subNavList {
+    display: none;
+    justify-content: flex-end;
+    position: absolute;
+    background-color: #898121;
+    left: 0;
+    width: 100%;
+    margin-top: 5px;
+}
+
+
+.extended:hover .subNavList {
+    display: flex;
+}
