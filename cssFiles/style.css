@@ -281,7 +281,7 @@ html {
       .socialMedia {
         max-height: 32px;
         a {
-          font-style: none;
+          text-decoration: none;
         }
       }
     }
