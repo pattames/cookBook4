@@ -1,106 +1,178 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
 }
 
 .container {
-    max-width: 940px;
-    margin-left: auto;
-    margin-right: auto;
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .navBar {
-    background-color: #4c4b16;
-    position: relative;
-
+  background-color: #4c4b16;
+  position: relative;
 }
 
 .logoText {
-    font-size: 1.5rem;
-    color: #f7dca5;
-    font-family: "Kalam", cursive;
-    font-weight: 400;
-    font-style: normal;
-    line-height: 0.8;
+  font-size: 1.5rem;
+  color: #f7dca5;
+  font-family: "Kalam", cursive;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 0.8;
 }
 
 .logo-container a {
-    text-decoration: none;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 0px;
-    margin: 0.4rem 0;
-
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0px;
+  margin: 0.4rem 0;
 }
 
 .logo-container img {
-    width: 5.5rem;
+  width: 5.5rem;
 }
 
 .navItem {
-    margin-top: 1rem;
+  margin-top: 1rem;
 }
 
 .nav-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .navItem ul {
-    font-size: xx-large;
-    list-style: none;
-    display: flex;
-    gap: 5.5rem;
+  font-size: xx-large;
+  list-style: none;
+  display: flex;
+  gap: 5.5rem;
 }
 
 .navItem a {
-    padding: 1.9rem 0;
+  padding: 1.9rem 0;
 
-    font-weight: 200;
-
+  font-weight: 200;
 }
 
 .subNavList li,
 .navItem li {
-    border-bottom: 5px solid transparent;
+  border-bottom: 5px solid transparent;
 }
 
-
 .navItem li:hover {
-    border-bottom: 5px solid #f7dca5;
+  border-bottom: 5px solid #f7dca5;
 }
 
 .subNavList li:hover {
-    border-bottom: 5px solid #4c4b16;
+  border-bottom: 5px solid #4c4b16;
 }
 
 .navBar a {
-    font-size: 2rem;
-    color: #f7dca5;
-    text-decoration: none;
+  font-size: 2rem;
+  color: #f7dca5;
+  text-decoration: none;
 
-    display: inline-flex;
-    justify-content: center;
-    gap: 0.2rem;
-    align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  gap: 0.2rem;
+  align-items: center;
 }
 
 .subNavList {
-    display: none;
-    justify-content: flex-end;
-    position: absolute;
-    background-color: #898121;
-    left: 0;
-    width: 100%;
-    margin-top: 5px;
+  display: none;
+  justify-content: flex-end;
+  position: absolute;
+  background-color: #898121;
+  left: 0;
+  width: 100%;
+  margin-top: 5px;
 }
 
-
 .extended:hover .subNavList {
+  display: flex;
+}
+
+footer {
+  height: 246px;
+  background-color: #4c4b16;
+  font-family: "Kaisei HarunoUmi", serif;
+  font-size: 2rem;
+  padding: 1%;
+  .footContainer {
     display: flex;
+    max-width: 940px;
+    margin: 0 auto;
+    height: 160px;
+    .footCategories {
+      h3 {
+        color: #e0c9c9;
+        font-size: 2.5rem;
+        height: 55px;
+        margin-right: 7rem;
+      }
+      ul {
+        list-style: none;
+        li a {
+          text-decoration: none;
+          color: #999074;
+        }
+      }
+    }
+    .footContact {
+      h3 {
+        color: #e0c9c9;
+        font-size: 2.5rem;
+        height: 55px;
+      }
+      ul {
+        list-style: none;
+        margin-bottom: 2rem;
+        li {
+          text-decoration: none;
+          color: #999074;
+        }
+      }
+      .socialMedia {
+        max-height: 32px;
+        a {
+          font-style: none;
+        }
+      }
+    }
+    .footLetter {
+      display: flex;
+      align-items: center;
+      form {
+        height: 55px;
+        display: flex;
+        margin-left: 2rem;
+        .inputEmail {
+          background-color: #e7b10a;
+          height: inherit;
+          width: 376px;
+          font-size: 2rem;
+          padding: 1rem;
+          border: none;
+          border-radius: 1rem;
+        }
+        .inputSend {
+          background-color: #8a8122;
+          width: 55px;
+          border-radius: 1rem;
+          margin: 0 0.5rem;
+        }
+      }
+    }
+  }
 }
