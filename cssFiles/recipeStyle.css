@@ -5,11 +5,14 @@ main {
     background-color: #f8dca5;
     display: flex;
     align-items: flex-end;
+    margin: 0;
     h1 {
       font-size: 8rem;
       font-family: "Koulen", sans-serif;
       margin-left: 8rem;
       color: #e7b10a;
+      margin-bottom: 2rem;
+      text-shadow: none;
     }
   }
   .recipeDisplay {
