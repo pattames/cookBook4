@@ -296,7 +296,14 @@ textarea {
 }
 .categories-item img {
   object-fit: cover;
+  transition: ease all 0.2s;
 }
+
+.categories-item :hover {
+  box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
+  transform: translateY(-5px);
+}
+
 .communication {
   width: 100%;
   min-height: 45rem;
@@ -407,7 +414,13 @@ footer {
     }
     .footLetter {
       display: flex;
-      align-items: center;
+      flex-direction: column;
+      gap: 2rem;
+      h4 {
+        color: #e0c9c9;
+        margin-left: 2rem;
+        margin-top: 2rem;
+      }
       form {
         height: 55px;
         display: flex;
@@ -426,6 +439,7 @@ footer {
           width: 55px;
           border-radius: 1rem;
           margin: 0 0.5rem;
+          padding: 1rem;
         }
       }
     }
