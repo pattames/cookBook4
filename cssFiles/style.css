@@ -407,7 +407,13 @@ footer {
     }
     .footLetter {
       display: flex;
-      align-items: center;
+      flex-direction: column;
+      gap: 2rem;
+      h4 {
+        color: #e0c9c9;
+        margin-left: 2rem;
+        margin-top: 2rem;
+      }
       form {
         height: 55px;
         display: flex;
@@ -426,6 +432,7 @@ footer {
           width: 55px;
           border-radius: 1rem;
           margin: 0 0.5rem;
+          padding: 1rem;
         }
       }
     }
