@@ -1,11 +1,13 @@
 main {
   height: 1662px;
+
   .recipeTitle {
     height: 162px;
     background-color: #f8dca5;
     display: flex;
     align-items: flex-end;
     margin: 0;
+
     h1 {
       font-size: 8rem;
       font-family: "Koulen", sans-serif;
@@ -15,14 +17,48 @@ main {
       text-shadow: none;
     }
   }
+
   .recipeDisplay {
     height: 568px;
-    background-image: url("../images/recipes/realAmericanBurger.jpg");
+
+    &.americanBurger {
+      background-image: url("../images/recipes/realAmericanBurger.jpg");
+    }
+
+    &.frenchCrossantLunch {
+      background-image: url("../images/recipes/frenchCrossantLunch.jpg");
+    }
+
+    &.bananaChokolate {
+      background-image: url("../images/recipes/bananaChocklateSauce.jpg");
+    }
+
+    &.chokolateBrownies {
+      background-image: url("../images/recipes/desserts/brownies.jpeg");
+    }
+
+    &.apperol {
+      background-image: url("../images/recipes/apperol.jpg");
+    }
+
+    &.hommadeGinTonic {
+      background-image: url("../images/recipes/hommadeGinTonic.jpg");
+    }
+
+    &.hommadeGinTonic {
+      background-image: url("../images/recipes/hommadeG");
+    }
+
+
+
+
+
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
+
     .recipeInfo {
       background-color: #f8dca599;
       width: 260px;
@@ -34,15 +70,18 @@ main {
       justify-content: center;
       padding: 0 2rem;
       color: white;
+
       h3 {
         font-family: "Open Sans", sans-serif;
         font-weight: 400;
         font-size: 2rem;
       }
+
       h4 {
         font-family: "Kaisei HarunoUmi", serif;
         font-size: 2rem;
       }
+
       p {
         font-size: 1.5rem;
         font-family: "Open Sans", sans-serif;
@@ -50,6 +89,7 @@ main {
       }
     }
   }
+
   .mainInfo {
     display: flex;
     justify-content: space-between;
@@ -57,21 +97,25 @@ main {
     margin: 0 auto;
     list-style-position: inside;
     margin-top: -8rem;
+
     .recipeContainer {
       width: 40rem;
       display: flex;
       flex-direction: column;
       justify-content: center;
       margin-top: 12.7rem;
+
       .recipeIngredients {
         background-color: #f8dca5;
         font-size: 1.8rem;
         font-family: "Kaisei HarunoUmi", serif;
         padding: 3rem;
         border-radius: 1rem;
+
         h2 {
           font-size: 3.5rem;
         }
+
         .infoLine {
           height: 0.5rem;
           width: auto;
@@ -79,6 +123,7 @@ main {
           margin: 1.5rem 0;
         }
       }
+
       .recipeNeeds {
         background-color: #f8dca5;
         font-size: 1.8rem;
@@ -86,9 +131,11 @@ main {
         border-radius: 1rem;
         padding: 3rem;
         margin-top: 3rem;
+
         h2 {
           font-size: 3.5rem;
         }
+
         .infoLine {
           height: 0.5rem;
           width: auto;
@@ -97,6 +144,7 @@ main {
         }
       }
     }
+
     .recipeInstructions {
       background-color: #f8dca5;
       width: 50rem;
@@ -104,9 +152,11 @@ main {
       font-family: "Kaisei HarunoUmi", serif;
       padding: 3rem;
       border-radius: 1rem;
+
       h2 {
         font-size: 3.5rem;
       }
+
       .infoLine {
         height: 0.5rem;
         width: auto;
