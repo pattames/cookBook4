@@ -18,8 +18,21 @@ object-fit:cover;
     background-size: cover;
     background-position: 50% 50%;
     text-align: center;
-    letter-spacing: 0.3rem;
+    letter-spacing: 0.3rem
 }
+
+.appetizers_banner {
+    background-image: url(/images/recipes/Appetizers/banner_appetizers.jpeg);
+}
+
+.main_course_banner {
+    background-image: url(/images/recipes/main_course/banner.jpeg);
+}
+
+.beverage_banner {
+    background-image: url(/images/recipes/beverage/banner_beverage.jpeg);
+}
+
 
 .Dessert_title {
     padding: 18rem;
@@ -123,3 +136,7 @@ object-fit:cover;
         font-size: 3rem;
         text-shadow: 2px 2px 4px #000000;
 }
+
+
+
+.
