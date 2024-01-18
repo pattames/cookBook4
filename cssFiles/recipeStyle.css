@@ -45,9 +45,15 @@ main {
       background-image: url("../images/recipes/hommadeGinTonic.jpg");
     }
 
-    &.hommadeGinTonic {
-      background-image: url("../images/recipes/hommadeG");
+
+    &.caprese {
+      background-image: url("../images/recipes/Appetizers/caprese.jpeg");
     }
+
+    &.italianFocaccia {
+      background-image: url("../images/recipes/Appetizers/lemon\ bread.jpeg");
+    }
+
 
 
 
