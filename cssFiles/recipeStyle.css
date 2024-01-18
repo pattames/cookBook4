@@ -54,6 +54,10 @@ main {
       background-image: url("../images/recipes/Appetizers/lemon\ bread.jpeg");
     }
 
+    &.tastyMozarellaBun {
+      background-image: url("../images/recipes/tastyMozarellaBun.jpg");
+    }
+
 
 
 
