@@ -7,7 +7,17 @@
 html {
   font-size: 62.5%;
 }
-
+body {
+  background-color: #f7fce2;
+}
+input,
+textarea {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: none;
+  font-family: "Roboto", sans-serif, sans-serif;
+  resize: none;
+}
 .container {
   max-width: 940px;
   margin-left: auto;
@@ -61,8 +71,8 @@ html {
 }
 
 .navItem a {
-    padding: 1.9rem 0;
-    font-weight: 200;
+  padding: 1.9rem 0;
+  font-weight: 200;
 }
 
 .subNavList li,
@@ -79,13 +89,13 @@ html {
 }
 
 .navBar a {
-    font-size: 2rem;
-    color: #f7dca5;
-    text-decoration: none;
-    display: inline-flex;
-    justify-content: center;
-    gap: 0.2rem;
-    align-items: center;
+  font-size: 2rem;
+  color: #f7dca5;
+  text-decoration: none;
+  display: inline-flex;
+  justify-content: center;
+  gap: 0.2rem;
+  align-items: center;
 }
 
 .subNavList {
@@ -106,139 +116,250 @@ html {
 /* navbar section css ends here */
 /* Hero section css starts here */
 .pageHeader {
-    background-image: url(../images/recipes/italianTomatoPasta.jpg);
-    background-size: cover;
-    background-position: 50% 50%;
-
-
+  background-image: url(../images/recipes/italianTomatoPasta.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
 }
 
 .overlayShadow {
-    width: 100%;
-    height: 100%;
-    background-image: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.4));
-    text-align: center;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.4));
+  text-align: center;
 }
 
 .textWrapper {
-    padding: 18rem 0;
+  padding: 18rem 0;
 }
 
 .textWrapper h1 {
-    padding: 1.5rem 0;
-    font-size: 6rem;
-    letter-spacing: 0.3rem;
-    line-height: 6rem;
-    font-family: 'Koulen', 'open sans';
-    color: #fff;
-    font-weight: 200;
-    text-shadow: 2px 4px 1px rgba(128, 0, 0, 0.28);
+  padding: 1.5rem 0;
+  font-size: 6rem;
+  letter-spacing: 0.3rem;
+  line-height: 6rem;
+  font-family: "Koulen", "open sans";
+  color: #fff;
+  font-weight: 200;
+  text-shadow: 2px 4px 1px rgba(128, 0, 0, 0.28);
 }
 
 .textWrapper span {
-    text-transform: lowercase;
-    letter-spacing: normal;
+  text-transform: lowercase;
+  letter-spacing: normal;
 }
 
 .recent {
-    background-color: #898121;
-    height: 26rem;
+  background-color: #898121;
+  height: 26rem;
 }
 
 .recent .container {
-    position: relative;
+  position: relative;
 }
 
 #recItem1 {
-    background-image: url(../images/recipes/bananaChocklateSauce.jpg);
+  background-image: url(../images/recipes/bananaChocklateSauce.jpg);
 }
 
 #recItem2 {
-    background-image: url(../images/recipes/tastyMozarellaBun.jpg);
+  background-image: url(../images/recipes/tastyMozarellaBun.jpg);
 }
 
 #recItem3 {
-    background-image: url(../images/recipes/realAmericanBurger.jpg);
+  background-image: url(../images/recipes/realAmericanBurger.jpg);
 }
 
 .recentWrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 1rem;
-    position: absolute;
-    bottom: -20rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  position: absolute;
+  bottom: -20rem;
 }
 
 .recipeItem {
-    overflow: hidden;
-    width: 100%;
-    height: auto;
-    border-radius: 4px;
-    transition: ease all 0.3s;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  transition: ease all 0.3s;
 }
 
 .recipeItem:hover {
-    transform: scale(1.1);
-    box-shadow: 5px 10px 10px -4px rgba(0, 0, 0, 0.41);
+  transform: scale(1.1);
+  box-shadow: 5px 10px 10px -4px rgba(0, 0, 0, 0.41);
 }
 
 .recipeItem a {
-    display: inline-flex;
-    justify-content: space-around;
-    align-items: flex-end;
-    width: 100%;
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  width: 100%;
 
-    height: 30rem;
-    background-position: 50% 50%;
-    background-size: cover;
-    text-decoration: none;
-
+  height: 30rem;
+  background-position: 50% 50%;
+  background-size: cover;
+  text-decoration: none;
 }
 
 .recipeTitleWrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    justify-content: flex-end;
-    text-align: center;
-    padding: 2.7rem;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: flex-end;
+  text-align: center;
+  padding: 2.7rem;
 }
 
 .recipeInfoWrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
 }
 
 .infoIcon {
-
-    height: 0.9rem;
-
+  height: 0.9rem;
 }
 
 .infoTitle {
-    font-size: 1.2rem;
-    font-weight: 300;
-    color: #fff;
-    font-family: 'Source Sans Pro', sans-serif;
-    line-height: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: #fff;
+  font-family: "Source Sans Pro", sans-serif;
+  line-height: 1.5rem;
 }
 
 .recipeTitle {
-    text-align: center;
+  text-align: center;
 
-    font-size: 2.8rem;
-    line-height: 2.7rem;
-    font-weight: 500;
-    color: #fff;
-    text-shadow: 1px 3px 0px rgba(3, 3, 3, 0.18);
-    margin: 0 1.6rem 1rem 1.6rem;
+  font-size: 2.8rem;
+  line-height: 2.7rem;
+  font-weight: 500;
+  color: #fff;
+  text-shadow: 1px 3px 0px rgba(3, 3, 3, 0.18);
+  margin: 0 1.6rem 1rem 1.6rem;
 }
-
-  footer {
+.categories {
+  background-color: #f7fce2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4.3rem;
+  padding-bottom: 6.4rem;
+}
+.categories h1 {
+  color: #e7b10a;
+  font-family: "Open Sans";
+  font-size: 3rem;
+  text-shadow: 2px 2px 4px #000000;
+}
+.categories-main {
+  min-height: 40;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  column-gap: 1rem;
+  row-gap: 2rem;
+  padding: 3rem 5rem;
+  margin-bottom: 5rem;
+}
+.categories-border-top-right-radius {
+  border-top-right-radius: 1rem;
+}
+.categories-border-top-left-radius {
+  border-top-left-radius: 1rem;
+}
+.categories-border-bottom-right-radius {
+  border-bottom-right-radius: 1rem;
+}
+.categories-border-bottom-left-radius {
+  border-bottom-left-radius: 1rem;
+}
+.categories-item {
+  display: inline-block;
+  text-decoration: none;
+  align-self: start;
+  background-color: #f7fce2;
+  position: relative;
+}
+.categories-label {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2rem;
+  position: absolute;
+  color: #fff;
+  bottom: 1.6rem;
+  left: 1rem;
+}
+.categories-item img {
+  object-fit: cover;
+}
+.communication {
+  width: 100%;
+  min-height: 45rem;
+  color: #fff;
+  font-family: "Kaisei HarunoUmi", serif;
+  font-size: 2rem;
+  background-image: url(/images/recipes/tastyMozarellaBun.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+}
+.communication-container {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  padding-top: 10.7rem;
+}
+.communication-signup {
+  background-color: #beadad;
+  align-self: center;
+  width: 50%;
+  min-height: 25rem;
+  line-height: 1.5;
+  opacity: 0.8;
+  padding: 1rem;
+}
+.communication-aboutus h5,
+.communication-signup h5 {
+  font-size: 2.5rem;
+}
+.communication-signup-input {
+  display: block;
+  background-color: #8a8122;
+  color: #fff;
+  font-size: 2rem;
+  margin: 1rem;
+  padding: 1rem;
+  width: 60%;
+}
+::placeholder {
+  color: #fff;
+}
+.communication-signup-btn {
+  display: block;
+  background-color: #e7b10a;
+  margin: 1rem;
+  padding: 1rem;
+  width: 30%;
+  color: #fff;
+}
+.communication-aboutus {
+  background-color: #beadad;
+  opacity: 0.8;
+  padding: 1rem;
+  min-height: 25rem;
+  align-self: center;
+  width: 40%;
+}
+.communication-aboutus p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+footer {
   height: 246px;
   background-color: #4c4b16;
   font-family: "Kaisei HarunoUmi", serif;
